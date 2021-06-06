@@ -4,6 +4,7 @@ import java.util.List;
 
 import kodlamaio.hrms.entities.concretes.Candidate;
 
+
 public interface CandidateService {
 
 	List<Candidate>getCandidates();
