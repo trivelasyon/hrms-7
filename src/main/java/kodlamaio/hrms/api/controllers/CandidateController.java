@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import kodlamaio.hrms.business.abstracts.CandidateService;
 import kodlamaio.hrms.entities.concretes.Candidate;
+import kodlamaio.hrms.entities.dtos.CvEducationWithCandidateDto;
 
 @RestController
 @RequestMapping("/api/Candidates")
@@ -26,6 +27,8 @@ public class CandidateController {
 	public List<Candidate> getCandidateList(){
 		return this.candidateService.getCandidates();
 	}
+	
+	
 	
 	
 }
